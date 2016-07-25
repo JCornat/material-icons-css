@@ -1,0 +1,17 @@
+{
+  "name": "material-icons-css",
+  "author": "Jacques Cornat",
+  "description": "Material icons accessible via classname",
+  "keywords": [
+    "google",
+    "material-design-icons",
+    "material-design",
+    "material-icons",
+    "material",
+    "icons",
+    "cornat",
+    "jcornat"
+  ],
+  "license": "CC-BY-4.0",
+  "homepage": "https://github.com/JCornat/material-icons-css"
+}
