@@ -1,5 +1,6 @@
 {
   "name": "material-icons-css",
+  "version": "1.0.0",
   "author": "Jacques Cornat",
   "description": "Material icons accessible via classname",
   "keywords": [
