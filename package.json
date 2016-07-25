@@ -2,7 +2,7 @@
   "name": "material-icons-css",
   "version": "1.0.0",
   "description": "Material icons accessible via classname",
-  "main": "scss",
+  "main": "",
   "dependencies": {},
   "devDependencies": {
     "gulp": "^3",
