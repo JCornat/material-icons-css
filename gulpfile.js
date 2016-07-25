@@ -1,12 +1,11 @@
 var gulp = require('gulp');
 var concat = require('gulp-concat');
-var uglify = require('gulp-uglify');
-var watch = require('gulp-watch');
 var compass = require('gulp-compass');
 var cleanCSS = require('gulp-clean-css');
-var plumber = require('gulp-plumber');
 
-gulp.task('sass', function() {
+var filename = 'material-icons';
+
+gulp.task('compass', function() {
     return gulp.src('scss/*.scss')
         .pipe(compass({
             css: 'css',
@@ -17,10 +16,10 @@ gulp.task('sass', function() {
         .pipe(gulp.dest('css'));
 });
 
-gulp.task('style', ['sass'], function() {
-    return gulp.src('css/style.css')
-        .pipe(concat('style.min.css'))
+gulp.task('minify', ['compass'], function() {
+    return gulp.src('css/' + filename + '.css')
+        .pipe(concat(filename + '.min.css'))
         .pipe(gulp.dest('css'));
 });
 
-gulp.task('default', ['style']);
+gulp.task('default', ['minify']);
