@@ -12,12 +12,12 @@ gulp.task('compass', function() {
             sass: 'scss',
             image: 'img'
         }))
-        .pipe(cleanCSS())
         .pipe(gulp.dest('css'));
 });
 
 gulp.task('minify', ['compass'], function() {
     return gulp.src('css/' + filename + '.css')
+        .pipe(cleanCSS())
         .pipe(concat(filename + '.min.css'))
         .pipe(gulp.dest('css'));
 });
