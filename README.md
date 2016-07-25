@@ -6,6 +6,14 @@ Material Icons CSS allows to use classname instead of text for icons.
 
 ## Quick Start
 
+### Download lib
+
+    npm install material-icons-css
+
+or
+
+    bower install material-icons-css
+
 ### Insert into your HTML :
 
     <link rel="stylesheet" href="your-css-folder/material-icons.min.css"/>
