@@ -8,7 +8,7 @@ Material Icons CSS allows to use classname instead of text for icons.
 
 ### Insert into your HTML :
 
-    <link rel="stylesheet" href="asset/css/material-icons.min.css"/>
+    <link rel="stylesheet" href="your-css-folder/material-icons.min.css"/>
 
 ### Before :
 
@@ -22,11 +22,14 @@ Material Icons CSS allows to use classname instead of text for icons.
 
 ### "c7z-" ??? What is this UGLY prefix ???
 
-Some Material Design Icons' name are starting with numerics, so you have to put some prefix, because `.3d-rotation` is not allowed, but `.c7z-3d-rotation` is.
+Some Material Design Icons' name are starting with numerics :
+
+ - `.3d-rotation` is *NOT* allowed
+ - `.such-prefix-3d-rotation` is.
 
 ### "c7z-" IS STILL UGLY !!!
 
-You can change the prefix into the `sccs\style.scss`, line 3.
+You can change the prefix at line 3, into `scss\style.scss`.
 
 ## Licence
 
