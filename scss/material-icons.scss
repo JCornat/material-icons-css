@@ -1,0 +1,15 @@
+@import "icons";
+
+$prefix: 'c7z'; // PERSONALIZE YOUR PREFIX
+
+@mixin icon ($prefix, $name, $code) {
+  $withslash: "\"\\#{$code}\"";
+
+  .#{$prefix}-#{$name}:before {
+    content: unquote($withslash);
+  }
+}
+
+@each $key, $value in $icons {
+  @include icon($prefix, $key, $value);
+}
