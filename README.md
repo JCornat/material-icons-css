@@ -34,7 +34,6 @@ You can change the prefix at line 3, into `scss\style.scss`.
 Once, you have made your changes, type into your console (at root project) :
 
 - `npm i` to install dependencies
-
 - `gulp` to regenerate CSS files
 
 ## Licence
