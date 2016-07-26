@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "author": "Jacques Cornat",
   "description": "Material icons accessible via classname",
+  "main": [
+    "css/material-icons.css",
+    "scss/*"
+  ],
   "keywords": [
     "google",
     "material-design-icons",
