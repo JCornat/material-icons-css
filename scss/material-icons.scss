@@ -1,6 +1,6 @@
 @import "icons";
 
-$prefix: 'c7z'; // PERSONALIZE YOUR PREFIX
+$prefix: 'material-icons'; // PERSONALIZE YOUR PREFIX
 
 @mixin icon ($prefix, $name, $code) {
   $withslash: "\"\\#{$code}\"";

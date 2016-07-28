@@ -25,17 +25,17 @@ or
 
 ### After :
 
-    <i class="material-icons c7z-check"></i>
-    <i class="material-icons c7z-add"></i>
+    <i class="material-icons material-icons-check"></i>
+    <i class="material-icons material-icons-add"></i>
 
-### "c7z-" ??? What is this UGLY prefix ???
+### "material-icons-" ??? What is this UGLY prefix ???
 
 Some Material Design Icons' name are starting with numerics :
 
  - `.3d-rotation` is *NOT* allowed
  - `.such-prefix-3d-rotation` is.
 
-### "c7z-" IS STILL UGLY !!!
+### "material-icons-" IS STILL UGLY !!!
 
 You can change the prefix at line 3, into `scss\style.scss`.
 
